@@ -19,7 +19,7 @@ def register():
         # Redirect to a new page or show a success message
         return redirect(url_for('thank_you', name=name))
 
-    return render_template('register.html')
+    return render_template('regi.html')
 
 # Route for a simple "Thank You" page after registration
 @app.route('/thank_you/<name>')
